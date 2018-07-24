@@ -13,7 +13,7 @@ public class ReportGenerator {
 
 	@Test
 	public void testReading() throws Exception {
-		File testFile = new File("/home/robertina/Desktop/test.csv");
+		File testFile = new File("test.csv");
 		List<Instruction> instructions = InstructionReader.readFile(testFile);
 		List<Report> settledIncoming = new ArrayList<Report>();
 		List<Report> settledOutgoing = new ArrayList<Report>();
